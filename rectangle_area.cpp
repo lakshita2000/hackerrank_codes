@@ -1,16 +1,6 @@
 #include <iostream>
 
 using namespace std;
-
-#include <iostream>
-
-using namespace std;
-/*
- * Create classes Rectangle and RectangleArea
- */
- 
-/* Rectangle Area in C++ - Hacker Rank Solution START */
-
 class Rectangle 
 {
     public:
@@ -35,32 +25,12 @@ class RectangleArea : public Rectangle
     }
 };
 
-/* Rectangle Area in C++ - Hacker Rank Solution END */
-
-
-
-
 int main()
 {
-    /*
-     * Declare a RectangleArea object
-     */
-    RectangleArea r_area;
-    
-    /*
-     * Read the width and height
-     */
-    r_area.read_input();
-    
-    /*
-     * Print the width and height
-     */
-    r_area.Rectangle::display();
-    
-    /*
-     * Print the area
-     */
-    r_area.display();
+  RectangleArea r_area;
+  r_area.read_input();
+  r_area.Rectangle::display();
+  r_area.display();
     
     return 0;
 }
